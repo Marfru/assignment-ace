@@ -1,32 +1,75 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,900');
+
+body {
+  background-color:#fab1a0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 20px 0 !important;
+  height: 100%;
+}
+.custom-style {
+  background: rgba(0, 0, 0, 0.2);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.custom-style .modalView {
+  box-shadow: none;
+  width: 450px;
+  padding: 0;
+  padding-bottom: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.custom-style .modalView h2,
+.custom-style .modalView p {
+  padding: 0 1.2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.custom-style .modalView button {
+  top: 0;
+  right: -52px;
+  padding: 10px;
+  background-color: #fff;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.custom-style .modalView button.buyButton {
+  top: initial;
+  right: initial;
+  padding: 10px;
+  background-color: #000;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+.custom-style .modalView p span {
+  font-weight: 700;
+}
+
+.custom-style .modalView button.buyButton:hover {
+  color: #000;
+  background-color: transparent;
+  padding: 7px;
+  border: 3px solid #000;
+  box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+@media (max-width: 416px) {
+  .custom-style .modalView {
+    width: 300px;
+    padding-bottom: 6%;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .custom-style .modalView img {
+    width: 300px;
+    height:220px;
+  }
+
+  .custom-style .modalView button {
+    right: 0
   }
 }
