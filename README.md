@@ -1,48 +1,27 @@
 # assignment-ace
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).<br>
-It's live on my portfolio: (http://marfru.com/ace/)
+Before anything, you can view this project live on my portfolio: (http://marfru.com/ace/).<br>
+This project has been built using React, Styled Components (and some CSS / SASS) and different NPM Packages that will be mentioned below.
 
-## Available Scripts
+## Details
 
-In the project directory, you can run:
+Create an application which is going to provide an overview of Ace & Tate frames, so users can decide which one they like the most. You have to fetch data from our API and display a list of Frames with their name and image, as soon as users press on a name more information related to selected Frame should be displayed (anything you that you think is relevant to the user).Please use Create React App, React, Redux and Styled Components to achieve this, but don't be afraid to keep it simple. The design is up to you (we would love to see your css skills as well)API - (https://api.aceandtate.com/api/frames)(https://api.aceandtate.com/api/frames)Tip: We are using Cloudinary to host our images, so please consider using appropiate image dimensions when loading list and detail views.
 
-### `npm start`
+## Design Aproach
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+I wanted to make a minimalistic and user-friendly design which will take the user straight into the product list shop, where they can view all the available glasses/sunglasses directly. With a "+ info" button, which will open a modal with basic information and a "BUY" button.<br>
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+I also used a Loading Screen, so I win a bit of time while the main app loads the images from the API.<br>
 
-### `npm test`
+It's also responsive, mainly for iPad (tablet devices) and iPhone/Samsung devices. And of course, desktop/laptop.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## NPM Packages Used
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-Initial commit from Create React App
+- Cloudinary React
+- Normalize CSS
+- Typed JS (Text animation on the loading screen)
+- Styled Components
+- Webpack (by default) and File-Loader
+- React Responsive Modal (Quick solution for Modals when clicking on the '+INFO' button on the product list view)
+- Axios and Redux (although none was used in this project)
