@@ -1,11 +1,15 @@
 # assignment-ace
 
-Before anything, you can view this project live on my portfolio: (http://marfru.com/ace/).<br>
+Before anything, you can view this project live on my portfolio: (https://marfru.com/ace/).<br>
 This project has been built using React, Styled Components (and some CSS / SASS) and different NPM Packages that will be mentioned below.
 
 ## Details
 
-Create an application which is going to provide an overview of Ace & Tate frames, so users can decide which one they like the most. You have to fetch data from our API and display a list of Frames with their name and image, as soon as users press on a name more information related to selected Frame should be displayed (anything you that you think is relevant to the user).Please use Create React App, React, Redux and Styled Components to achieve this, but don't be afraid to keep it simple. The design is up to you (we would love to see your css skills as well)API - (https://api.aceandtate.com/api/frames)(https://api.aceandtate.com/api/frames)Tip: We are using Cloudinary to host our images, so please consider using appropiate image dimensions when loading list and detail views.
+Create an application which is going to provide an overview of Ace & Tate frames, so users can decide which one they like the most. You have to fetch data from our API and display a list of Frames with their name and image, as soon as users press on a name more information related to selected Frame should be displayed (anything you that you think is relevant to the user).Please use Create React App, React, Redux and Styled Components to achieve this, but don't be afraid to keep it simple. The design is up to you (we would love to see your css skills as well)
+
+API - (https://api.aceandtate.com/api/frames)
+
+Tip: We are using Cloudinary to host our images, so please consider using appropiate image dimensions when loading list and detail views.
 
 ## Design Aproach
 
