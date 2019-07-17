@@ -1,7 +1,6 @@
 # assignment-ace
 
-Before anything, you can view this project live on my portfolio: (https://marfru.com/ace/).<br>
-This project has been built using React, Styled Components (and some CSS / SASS) and different NPM Packages that will be mentioned below.
+This project has been built using React, Styled Components (and some CSS / SASS) and different NPM Packages that will be mentioned below. Done in 4 hours.
 
 ## Details
 
